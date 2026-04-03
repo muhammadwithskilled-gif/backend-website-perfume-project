@@ -1,0 +1,55 @@
+Backend requirement and steps
+
+Database Path: Where each folder we will put data in json format not Excel file. in each folder name will be Product_1 and json file which has product data.
+
+Product fatch from data base and grab in backend and frontend fatch from backend. 
+like: 
+Product 1 
+Images, excel file... in which has product data Name, detail, features, Gender defination Male | Female | Other
+
+Product 2
+Images, excel file... in which has product data Name, detail, features, Gender defination Male | Female | Other
+
+Product 3
+Images, excel file... in which has product data Name, detail, features, Gender defination Male | Female | Other
+
+Product Delivery detail save into google sheet.
+When user get the order then all details of products save into google sheet 
+Column:
+Product Name, Product Detail, Product Description, Delivery time, Payment MOD, Costumer Name, Costumer Address, Delivery Date, Status
+
+Products 
+
+order_routes.py
+route_1
+    home page, for welcoming user.
+route_2
+    Product 1
+    route_1
+        in which file, routes to fatch data form product 1 and through the data frontend 
+    route_2
+        in which route, when user place the order all products details save into google sheet. 
+route_3
+    Product 2
+    route_1
+        in which file, routes to fatch data form datakbase product 1 and through the data frontend 
+    route_2
+        in which route, when user place the order all products details save into google sheet. 
+route_4
+    Product 3
+    route_1
+        in which file, routes to fatch data form product 1 and through the data frontend 
+    route_2
+        in which route, when user place the order all products details save into google sheet. 
+
+config.py
+in which file, User all information detail Structure 
+    like: Name (Name should be maxmimun 20 Charectors)
+        Address (Address should be maxmimun 120 Charectors, and it type should be str for containing every elemets)
+        Mobile Number: (Mobile Number must contain Integers, it should be maximum 12)
+        User Email: (User Email contains 120 Charectors (str) and it should be optional for user)
+        Postcode: (Postcode should be 2-10 Integers)
+
+__init__.py 
+session, it is requried when website has login, and also cart payment.
+

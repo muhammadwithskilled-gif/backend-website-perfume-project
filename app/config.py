@@ -1,0 +1,12 @@
+# app/config.py
+
+# User input validation rules
+
+MAX_NAME_LENGTH = 20
+MAX_ADDRESS_LENGTH = 120
+MAX_EMAIL_LENGTH = 120
+
+MIN_POSTCODE = 2
+MAX_POSTCODE = 10
+
+MAX_MOBILE_LENGTH = 12

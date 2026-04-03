@@ -1,0 +1,26 @@
+{
+  "id": "EPA-01",
+  "name": "Elite Aura",
+  "category": "Perfume",
+  "gender": ["Male", "Female"],
+  "price": {
+    "original": 3400,
+    "discounted": 2800,
+    "currency": "PKR"
+  },
+  "availability": "In Stock",
+  "fragrance_lasting": "10-12 Hours",
+  "bottle_size": "50ml",
+  "description": "Experience the ultimate blend of modern elegance and Arabian tradition. This long-lasting fragrance (10–12+ hours) combines rich oud, delicate rose, and exotic spices with contemporary Western notes, creating a sophisticated scent that captivates and lingers. Perfect for both day and evening wear, it exudes luxury and confidence.",
+  "features": [
+    "Long-lasting fragrance (10–12+ hours)",
+    "Elegant blend of Arabian oud, rose, and exotic spices",
+    "Modern Western sensibilities for contemporary style",
+    "Suitable for day and evening wear",     
+    "Luxury unisex appeal"     
+  ],
+  "images": [
+    "Elite_Aura/image-real.png"
+  ],
+  "folder_path": "database/Elite_Aura"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "SPA-1",
+  "name": "Signature",
+  "category": "Perfume",
+  "gender": ["Male", "Female"],
+  "price": {
+    "original": 2800,
+    "discounted": 2400,
+    "currency": "PKR"
+  },
+  "availability": "In Stock",
+  "fragrance_lasting": "8-10 Hours",
+  "bottle_size": "50ml",
+  "description": "Signature is a luxurious and elegant fragrance inspired by floral notes. It blends white gardenia, jasmine, pear blossom, and a hint of brown sugar to create a long-lasting and captivating scent suitable for both men and women.",
+  "features": [
+    "Long lasting fragrance",
+    "Premium quality perfume",
+    "Perfect for daily and special occasions",
+    "Unisex fragrance"
+  ],
+  "images": [
+    "Signature_Aura/Signature-Post.png"
+  ],
+  "folder_path": "database/Signature_Aure"
+}

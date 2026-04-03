@@ -1,0 +1,26 @@
+{
+  "id": "JPA-01",
+  "name": "Jahan",
+  "category": "Perfume",
+  "gender": ["Male", "Female"],
+  "price": {
+    "original": 2600,
+    "discounted": 2200,
+    "currency": "PKR"
+  },
+  "availability": "In Stock",
+  "fragrance_lasting": "8-10 Hours",
+  "bottle_size": "50ml",
+  "description": "CR7 is a vibrant, aromatic fougere designed for the modern, active man. Bold and energetic, it combines bergamot, lavender, cardamom, tobacco, cinnamon, sandalwood, and musk to create a sporty yet sophisticated scent. Ideal for casual outings or evening occasions, it embodies confidence, energy, and masculinity.",
+  "features": [
+    "Sporty, masculine aromatic fougere",
+    "Energizing blend of bergamot, cardamom, and lavender",
+    "Warm notes of tobacco, cinnamon, sandalwood, and musk",
+    "Perfect for casual or evening occasions",
+    "Signature fragrance of Cristiano Ronaldo"
+  ],
+  "images": [
+    "Jahan/Jahan_Post.jpg"
+  ],
+  "folder_path": "database/Jahan"
+}
